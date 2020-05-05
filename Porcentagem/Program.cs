@@ -10,13 +10,13 @@ namespace Porcentagem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Entre com o nome de um produto");
+            Console.WriteLine("Entre com o nome de um produto:");
             string NomeProduto = Console.ReadLine();
 
-            Console.WriteLine("Entre com o preço do produto");
+            Console.WriteLine("Entre com o preço do produto:");
             double preco = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("entre com a porcentagem de desconto");
+            Console.WriteLine("entre com a porcentagem de desconto:");
             double desconto = double.Parse(Console.ReadLine());
 
 
